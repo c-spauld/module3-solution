@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;}
+
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  height: 100px;
+  border: 0px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Oxygen', serif;
+  color: #0821c4;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+/* hamburger styling*/
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.hidden-xs {
+  background-color: #f6b319;
+  color: #f6b319;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #0821c4;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 0px;
+}
+
+#menu-categories-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+/*  XS Devices  */
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 2.0em;
+    font-style: 300;
+    background: #c7c9eb;
+    font-color: #0821c4;
+
+}
+
+h2 {
+  font-family: 'Oxygen', serif;
+  text-align: center;
+  font-size: 3.0em;
+  font-style: 700;
+}
+
+h3 {
+  font-family: 'Oxygen', serif;
+  text-align: center;
+  font-size: 2.0em;
+  font-style: 300;
+}
+
+.row {
+  background-color: #ffe19c; margin: 10px; padding: 30px; height: 1000px;
+}
+
+p{
+  font-family: 'Oxygen', serif;
+  padding: 15px;
+  font-size: 1.3em;
+
+}
